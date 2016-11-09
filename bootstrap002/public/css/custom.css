@@ -1,0 +1,193 @@
+.wapper {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: condensed;
+  src: url("../fonts/condensed/OpenSans-CondLight.ttf"); }
+
+@font-face {
+  font-family: Bebas;
+  src: url("../fonts/BebasNeue/BebasNeue-Regular.otf"); }
+
+.logo > p {
+  margin: 0px 0px; }
+  .logo > p:first-child {
+    font-family: Bebas;
+    font-weight: bold;
+    font-size: 36.5px;
+    padding-top: 38px; }
+  .logo > p:last-child {
+    font-size: 16px; }
+  .logo > p:hover {
+    color: #d45e5e;
+    cursor: pointer; }
+
+.nav-pills > li:first-child {
+  padding-left: 20px; }
+
+.nav-pills > li > a {
+  font-family: condensed;
+  font-size: 22.5px;
+  border-radius: 0px;
+  padding-top: 50px;
+  color: #000; }
+  .nav-pills > li > a:hover {
+    color: #fff;
+    background-color: #d45e5e; }
+
+/*End header*/
+.quote {
+  text-align: center; }
+  .quote > p {
+    margin: 0 auto; }
+    .quote > p:first-child > img {
+      padding: 14px 0px;
+      opacity: 0.5; }
+      .quote > p:first-child > img:hover {
+        opacity: 1; }
+    .quote > p:nth-child(2) {
+      width: 50%;
+      font-family: Cambria;
+      font-size: 22.5px;
+      font-style: italic;
+      padding: 17px 0px 15px 0px;
+      background-color: #fff;
+      position: relative;
+      z-index: -1;
+      z-index: 10; }
+    .quote > p:nth-child(3) {
+      margin-top: -6.1px; }
+      .quote > p:nth-child(3) > img {
+        width: 100%; }
+    .quote > p:last-child {
+      margin-top: -50px; }
+      .quote > p:last-child > img {
+        width: 104px;
+        height: 84px; }
+
+.item-img {
+  padding: 50px 34px; }
+  .item-img p {
+    font-size: 22.5px;
+    font-style: italic;
+    font-family: Cambria;
+    padding: 5px; }
+  .item-img a > img {
+    width: 100%;
+    height: 203px;
+    margin: 16px 0px; }
+    .item-img a > img:hover {
+      opacity: 0.6;
+      /*cursor:*/ }
+
+/*End body*/
+.footer {
+  background-color: #d45e5e;
+  margin-top: 50px;
+  color: #fff; }
+  .footer .f-profile a img {
+    border: #fff solid 5px;
+    margin-top: -50px;
+    margin-left: 30px; }
+  .footer .f-name {
+    padding: 23px 23px 23px 27px; }
+    .footer .f-name p {
+      line-height: 13px; }
+      .footer .f-name p:first-child {
+        font-family: Cambria;
+        font-size: 24.5px;
+        font-style: italic;
+        font-weight: bold; }
+      .footer .f-name p span {
+        font-size: 12.5px;
+        position: absolute;
+        padding: 5px; }
+  .footer .f-social {
+    margin-top: 10px; }
+    .footer .f-social a img {
+      width: 43px;
+      height: 43px; }
+    .footer .f-social a #s1 {
+      margin: 15px 13px 26px 13px; }
+    .footer .f-social a #s2 {
+      margin: 6px 13px 26px 13px; }
+    .footer .f-social a:hover {
+      opacity: 0.5; }
+  .footer .f-para {
+    margin: 10px 0 10px 30px;
+    padding-bottom: 30px;
+    font-size: 12.5px; }
+  .footer .index {
+    font-family: Cambria;
+    font-size: 24.5px; }
+    .footer .index p {
+      font-weight: bold;
+      padding: 62px 0px 25px 0px; }
+    .footer .index .align-process {
+      float: left;
+      margin-top: -15px;
+      font-size: 24.5px;
+      margin-right: 10px; }
+    .footer .index > .progress {
+      height: 10px;
+      border-radius: 0px;
+      width: 200px; }
+    .footer .index .progress-bar {
+      background-color: #282828; }
+
+.copyright {
+  background-color: #282828; }
+  .copyright p {
+    font-size: 12px;
+    color: #939393;
+    padding: 13px 20px;
+    margin: 0;
+    float: right; }
+
+@media (max-width: 768px) {
+  .logo {
+    padding-bottom: 22px;
+    border-bottom: #d0d0d0 solid 1px; }
+    .logo > p {
+      padding-left: 30px; }
+  .nav-pills {
+    margin: 15px 0px 84px 0px; }
+    .nav-pills > li:first-child {
+      padding-left: 20px; }
+    .nav-pills > li > a {
+      font-size: 18px;
+      padding-top: 10px; }
+  .quote > p:nth-child(2) {
+    width: 100%;
+    font-size: 21px;
+    font-style: italic;
+    padding: 17px 45px 15px 45px; }
+  .quote > p:nth-child(3) {
+    margin-top: -6.1px; }
+    .quote > p:nth-child(3) > img {
+      width: 100%; }
+  .quote > p:last-child {
+    margin-top: -50px; }
+    .quote > p:last-child > img {
+      width: 104px;
+      height: 84px; }
+  .f-social {
+    margin: -30px 30px 0px 20px; }
+    .f-social a {
+      margin-right: 30px;
+      color: #fff;
+      font-size: 16px; }
+  .index {
+    border-top: #fff solid 1px;
+    padding-left: 60px; } }
+
+@media (max-width: 480px) {
+  .item-img {
+    padding: 50px 34px; }
+    .item-img a > img {
+      width: 100%;
+      height: 100%;
+      margin: 16px 0px; }
+  .f-name {
+    margin-left: 37px; } }
